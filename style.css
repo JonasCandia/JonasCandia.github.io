@@ -1,0 +1,13 @@
+*{
+    margin: 0 0;
+}
+
+header{
+    position:fixed;
+    left: 35%;
+}
+
+.links{
+    text-align: center;
+    text-decoration: none;
+}
