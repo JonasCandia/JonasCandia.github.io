@@ -1,13 +1,46 @@
 *{
-    margin: 0 0;
+    margin: 0%;
 }
-
 header{
-    position:fixed;
-    left: 35%;
+    background-image: url(imagens/wallpaperflare.com_wallpaper.jpg);
+   background-position: center;
 }
-
-.links{
+.text{
+    display: inline-block;
+    position: relative;
+    padding: 30px;
+    left: 25%;
+    top: -45px;
+    width: 50%;
+}
+#welcome{
+    font-family: fantasy;
+    padding: 20px;
+    font-size: 50px;
+}
+#what{
+    font-size: 20px;
+}
+#header{
     text-align: center;
-    text-decoration: none;
+}
+.links{
+    
+}
+.links li{
+    display: inline-block;
+    text-align: center;
+}
+.links li a{
+    font-size: 20px;
+    border: 2px solid;
+    padding: 2%;
+    border-color: rgb(199, 199, 199);
+}
+a{
+    text-decoration:none;
+}
+#imagem-perfil{
+    width: 200px;
+    border-radius: 100px;
 }
