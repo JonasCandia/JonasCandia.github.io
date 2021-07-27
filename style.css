@@ -1,6 +1,9 @@
 *{
     margin: 0%;
 }
+body{
+    background-color:#e4e4e4;
+}
 header{
     background-size: cover; 
     background-repeat: no-repeat;
@@ -9,14 +12,18 @@ header{
 }
 .text{
     width: 50%;
-    padding:40px 0 40px 40px;
+    padding:40px 0 10px 40px;
 }
 #welcome{
+    color: rgb(231, 231, 231);
+    text-shadow: 2px 3px 3px rgb(43, 43, 43);
     font-family: fantasy;
-    padding: 0 0 10px 20px;
+    padding: 0 0 20px 20px;
     font-size: 50px;
 }
 #what{
+    text-shadow: 2px 3px 3px rgb(43, 43, 43);
+    color: rgb(231, 231, 231);
     font-size: 20px;
 }
 #header{
@@ -24,20 +31,15 @@ header{
     position: relative;
     bottom: 5px;
 }
-.links{
-    
-}
 .links li{
     display: inline-block;
     text-align: center;
 }
 .links li a{
+    background-color: ;
+    color: #FB081E;
     font-size: 20px;
-    border: 2px solid;
-    padding: 2px;
-    margin: 2px;
-    border-radius: 10%;
-    border-color: rgb(199, 199, 199);
+    margin: 10px;
 }
 a{
     text-decoration:none;
@@ -50,7 +52,34 @@ a{
     border: 5px solid rgb(255, 255, 255);
     width: 250px;
     border-radius: 5%;
+    box-shadow:5px 3px 5px rgb(0, 0, 0);
 }
 main{
-width: 70%;
+    background-color: #ffffff;
+    position: relative;
+    top: -300px;
+    margin-left: 15px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    padding-left: 20px;
+    width: 70%;
+    box-shadow:5px 3px 5px rgb(0, 0, 0);
+}
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+    padding: 20px;
+}
+#roling1 p{
+    line-height: 17px;
+    padding: 4px 10px 4px 0;
+    font-size: 18px;
+}
+#list-hability{
+    margin-left: 40px;
+    list-style-image:url(imagens/foguete02.png);
+}
+#list-hability li{
+    font-size: 20px;
+    padding: 0 0 10px 5px;
 }
