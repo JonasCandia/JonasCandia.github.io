@@ -83,3 +83,15 @@ h2{
     font-size: 20px;
     padding: 0 0 10px 5px;
 }
+#gale{
+    margin-left: 0px;
+}
+.image{
+    padding:10px;
+}
+.image img{
+    display: inline-block;
+    width: 30%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
