@@ -9,7 +9,7 @@
     <header>
       <div id="cabecalho_left">
         <div class="cabecalho_text">
-          <p id="welcome">Olá visitante!</p>
+          <h1 id="welcome">Olá visitante!</h1>
           <p id="what">Aqui você vai ver um pouco do perfil pessoal e profissional de Jonas Candia.
             Afim de demostrar os trabalhos e um pouco da vida pessoal de Jonas, é para o que este portfólio, que foi desenvolvido durante o curso de Desenvolvimento web da Trybe,  foi criado.
           </p>
@@ -26,17 +26,24 @@
       </div>
       <img id="imagem-perfil" src="imagens/perfil.jpeg" alt="Jonas Candia sorrindo, vestindo camisa social, gravata e suspesório.">        
     </header>
-      <main>
-        <section id="roling1">
-          <h2 id="history">História</h2>
+    <main>
+      <article class="box_main" id="history">
+        <header class="cabecalho_main">
+          <h1 class="titulo_main">História</h1>
+        </header>
+        <section>
           <p>Nascido em 1997, vivi até meus 20 anos na cidade de Nova Hartz na região metropolitana, porem quase interior, de Porto Alegre-RS, mas atualmente vivo em São Leopoldo-RS.</p>
           <p>Tive alguns trabalhos durante a vida, tais como, professor de escola infantil, monitor de informática do contraturno escolar no nível fundamental, motorista de aplicativo, mas o que foi mais marcante e duradouro foi eletricista. Neste emprego, que foi na empresa de meu Pai, aprendi muito sobre como lidar com publico e sobre gerenciamento de pessoas.</p>
           <p>A minha história acadêmica  é cheia de altos e baixos , iniciei a graduação em engenharia civil e acabei por deixar dela após dois semestres, logo em seguida comecei no curso de Educação Física, que também larguei, mas desta vez nos semestres finais. Agora estudo no curso de Desenvolvimento da Trybe.
           </p>
         </section>
+      </article>
+      <article class="box_main" id="hability">
+        <header class="cabecalho_main">
+          <h1 class="titulo_main">Habilidades</h1>
+        </header>
         <section>
-          <h2 id="hability">Habilidades</h2>
-          <ul id="list-hability">
+          <ul>
             <li><strong>Tenho boa comunicação;</strong></li>
             <li>Sei trabalhar em equipe;</li>
             <li>Sei liderar;</li>
@@ -44,16 +51,62 @@
             <li>Estou sempre em busca de novos aprendizados. </li>
           </ul>
         </section>
+      </article>
+      <article class="box_main" id="galery">
+        <header class="cabecalho_main">
+          <h1 class="titulo_main">Galeria</h1>
+        </header>
         <section>
-          <h2 id="galery">Galeria</h2>
-          <div id="gale">
-            <a class="image" href="https://www.facebook.com/photo/?fbid=1996881980415781&set=pb.100002819948027.-2207520000.." target="_blank"><img src="imagens/galery3.jpg" alt="Jonas apresentando o artigo'Experiencia com modelos e jogos anatômicos com crianças de quatro e cinco anos.',para a jurada do congresso internacional de anatomia."></a>
-            <a class="image" href="https://www.facebook.com/photo.php?fbid=1996882017082444&set=pb.100002819948027.-2207520000..&type=3" target="_blank"><img src="imagens/galery1.jpg" alt="Jonas abraçado em seu professor e mentor João Antônio Bonatto Costa, ao lado o banner do trabalho cientifico 'Experiencia com modelos e jogos anatômicos com crianças de quatro e cinco anos'"></a>
-            <a class="image" href="https://www.facebook.com/photo/?fbid=1256001667837153&set=pb.100002819948027.-2207520000.." target="_blank"><img src="imagens/galery2.jpg" alt="Jonas com seus colegas Jéssica Scherer, Matheus Ramos, Matheus Melo, Bernardo Costa e seu professor e mentor João Antônio Bonatto Costa, ao fundo o banner do trabalho cientifico ‘Ouso de jogos para o ensino da anatomia’."></a>
+          <a href="https://www.facebook.com/photo/?fbid=1996881980415781&set=pb.100002819948027.-2207520000.." target="_blank"><img class="imagens" src="imagens/galery3.jpg" alt="Jonas apresentando o artigo'Experiencia com modelos e jogos anatômicos com crianças de quatro e cinco anos.',para a jurada do congresso internacional de anatomia."></a>
+          <a href="https://www.facebook.com/photo.php?fbid=1996882017082444&set=pb.100002819948027.-2207520000..&type=3" target="_blank"><img class="imagens" src="imagens/galery1.jpg" alt="Jonas abraçado em seu professor e mentor João Antônio Bonatto Costa, ao lado o banner do trabalho cientifico 'Experiencia com modelos e jogos anatômicos com crianças de quatro e cinco anos'"></a>
+          <a href="https://www.facebook.com/photo/?fbid=1256001667837153&set=pb.100002819948027.-2207520000.." target="_blank"><img class="imagens" src="imagens/galery2.jpg" alt="Jonas com seus colegas Jéssica Scherer, Matheus Ramos, Matheus Melo, Bernardo Costa e seu professor e mentor João Antônio Bonatto Costa, ao fundo o banner do trabalho cientifico ‘Ouso de jogos para o ensino da anatomia’."></a>
+        </section>
+      </article>
+      <article class="box_main" id="blog">
+        <header class="cabecalho_main">
+         <h1 class="titulo_main">Blog</h1>
+        </header>
+        <section>
+          <div id="o_que_e">
+            <img class="imagens" id="ale_aza" src="imagens/jovem-nerd.jpg" alt="Deive Pazos Gerpe e Alexandre Ottoni de Menezes criadores do blog 'Jovem Nerd'.">
+            <div>
+              <h2><a href="https://jovemnerd.com.br/" target="_blank">Jovem Nerd</a></h2>
+              <p>O Jovem Nerd é um blog brasileiro de humor e notícias, criado em 2002 por Alexandre Ottoni de Menezes e Deive Pazos Gerpe e adquirido pela Magazine Luiza em abril de 2021, que aborda temas sobre entretenimento, em especial, cinema, séries de televisão,ficção científica,quadrinhos, role-playing game e viagens.</p>
+            </div>
+            <footer>
+              <small>
+                Fonte: <a href="https://pt.wikipedia.org/wiki/Jovem_Nerd" target="_blank">Wikipédia</a>.
+              </small>
+            </footer>
           </div>
         </section>
-      <h2 id="blog">Blog</h2>
-     </main>
-     <h2 id="contact">Contatos</h2>
+        <section id="podcast">
+          <div id="explicacao">
+            <h2>Podcast</h2>
+            <p>O Blog também possui um Podcast que engloba todos os assuntos do site, os áudios são lançados em uma incidência de 2 a 3 vezes por semana.</p>
+            <p>Deixei aqui duas recomendações:</p>
+          </div>
+          <div id="recomendation">
+            <a href="https://jovemnerd.com.br/nerdcast/nerdcast-251-especial-rpg-o-bruxo-a-princesa-e-o-dragao/" target="_blank">
+              <div id="cast251">
+                <img class="imagens" src="imagens/podcast_251_tit.jpg" alt="Imagem: NerdCast 251, o bruxo, a princesa e o dragão.">
+                <h3>NerdCast 251: O Bruxo, a Princesa e o Dragão</h3>
+                <p>Nesta aventura: Embarque nos maiores clichês do gênero, enquanto este grupo de aventureiros politicamente incorretos desbravam tavernas, florestas e calabouços para resgatar uma virgem princesa! Ou será sua fortuna?</p>
+              </div>
+            </a>
+            <a href="https://jovemnerd.com.br/nerdcast/nerdcast-516-ciencia-do-aprendizado/" target="_blank">
+              <div id="cast516">
+                <img class="imagens" src="imagens/GIGA_APRENDER_01-1-1210x544.jpg" alt="Imagem: NerdCast 516, a ciência do aprendizado.">
+                <h3>NerdCast 516: A ciência do aprendizado.</h3>
+                <p>Neste Podcast: Troque de marcha para entender como funciona a memória, descubra que os pombos são supersticiosos e entenda como as máquinas irão aprender para eventualmente escravizar a humanidade!</p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer id="contact">
+      <h2>Contatos</h2>
+    </footer>
   </body>
 </html>
