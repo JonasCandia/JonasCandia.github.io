@@ -1,0 +1,218 @@
+* {
+    margin: 0%;}
+
+p {
+    text-indent: 2em;}
+
+a {
+    text-decoration:none;}
+
+body {
+    background-color:#e4e4e4;}
+
+header {
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;}
+
+#cabecalho_left {
+    display: inline-block;
+    width: 70%;}
+
+.cabecalho_text {
+    width: 75%;
+    padding:40px 0 10px 40px;}
+
+h1 {
+    color: rgb(231, 231, 231);
+    text-shadow: 2px 3px 3px rgb(43, 43, 43);
+    font-family: fantasy;
+    padding: 0 0 20px 20px;
+    font-size: 50px;}
+
+#what {
+    text-shadow: 2px 3px 3px rgb(43, 43, 43);
+    color: rgb(231, 231, 231);
+    font-size: 20px;}
+
+#header {
+    text-align: center;
+    position: relative;
+    bottom: 5px;}
+
+#header ul {
+padding: 0%;}
+
+#header li {
+    display: inline-block;
+    text-align: center;}
+
+#header li a {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color: #FB081E;
+    font-size: 20px;
+    margin: 10px;}
+
+#imagem-perfil{
+    margin: 30px 30px 0 0;
+    float: right;
+    border: 3px solid rgb(255, 255, 255);
+    width: 18%;
+    border-radius: 5%;
+    box-shadow:5px 5px 5px rgb(35, 35, 35);}
+
+.box_main {
+    background-color: #ffffff;
+    margin: 35px 0 0 30px;
+    border-radius: 15px;
+    width: 75%;
+    box-shadow:7px 7px 7px rgb(20, 20, 20);}
+
+.cabecalho_main {
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;}
+
+.titulo_main {
+    padding: 10px;}
+
+#history section {
+    padding: 2%;
+    margin: 15px;}
+
+#history section p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 20px;
+    padding: 0 0 10px 0;
+    font-size: 18px;}
+
+#hability section ul {
+    padding-bottom: 20px;
+    margin: 20px 0 0 40px;}
+
+#hability section ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    padding: 0 0 5px 5px;}
+
+#galery section {
+    text-align: center;
+    padding: 20px;}
+
+#galery section a {
+    padding: 1%;}
+
+.imagens {
+    display: inline-block;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgb(35, 35, 35);
+    border-radius: 10px;}
+
+#blog section {
+    margin: 15px;}
+    
+#ale_aza {
+    vertical-align: top;
+    margin-right: 15px;
+    display: inline-block;}
+
+#jovem_nerd {
+    width: 64%;
+    display: inline-block;}
+
+#o_que_e div h2 {
+    padding-left: 20px;
+    color: rgb(43, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;}
+
+#o_que_e div p {
+    color: black;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 20px;}
+
+#o_que_e footer {
+    margin-top: 5px;}
+
+#explicacao {
+    width: 60%;
+    padding-bottom: 15px;}
+
+#explicacao h2 {
+    padding:0 0 10px 10px;
+    color: rgb(43, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;}
+
+#explicacao p {
+    padding: 3px;
+    font-size: 18px;
+    line-height: 20px;}
+
+#recomendation {
+    margin: 0;
+    padding-bottom: 20px;}
+
+#recomendation div {
+
+    width: 48%;}
+
+#recomendation div img {
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    width: 50%;
+    margin: 10px;
+    float: left;}
+
+#recomendation div h3 {
+    padding:0 0 10px 10px;
+    color: rgb(43, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;}
+
+#recomendation div p {
+    padding: 10px;
+    color: rgb(37, 37, 37);}
+
+#cast251 {
+    margin-right: 2%;
+    vertical-align: top;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    border-radius: 10px;
+    display: inline-block;}
+    
+#cast516 {
+    vertical-align: top;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    display: inline-block;}
+
+#contact {
+    border-top: 2px solid black;
+    box-shadow: 0 0 10px black;
+    margin-top: 30px;
+    background-color: #acacac;}
+
+#contact h2 {
+    text-shadow: 1px 1px 5px rgb(40, 40, 40);
+    color: black;
+    font-size: 30px;
+    margin: 15px 0 0 15px;}
+
+#contact nav {
+    padding: 20px;}
+
+.icon {
+   width: 30px;}
+
+#contact a div p {
+    text-shadow: 1px 1px 5px rgb(40, 40, 40);
+    text-indent: 0%;
+    padding-top: 3px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 20px;}
+
+#contact nav a div {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 8px;}
+
